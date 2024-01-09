@@ -1,9 +1,9 @@
 THEOS_PACKAGE_SCHEME=rootless
-export ARCHS = arm64 arm64e
+export ARCHS = arm64e
 
 FINALPACKAGE = 1
 
-TARGET := iphone:clang:14.5:15.0
+TARGET := iphone:clang:latest:15.0
 
 export ADDITIONAL_CFLAGS = -DTHEOS_LEAN_AND_MEAN -fobjc-arc -Wno-deprecated
 
